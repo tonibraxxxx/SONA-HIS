@@ -37,7 +37,7 @@ export default function HISMainPortal() {
   const [activeTab, setActiveTab] = useState<'register' | 'triage' | 'doctor' | 'pharmacy' | 'billing'>('register');
 
   const presetServices: BillableItem[] = [
-    { id: '1', description: 'General Doctor Consultation', amount: 1000 },
+    { id: '1', description: 'General Doctor Consultation', amount: 1500 },
     { id: '2', description: 'Full Blood Count (Lab)', amount: 1200 },
     { id: '3', description: 'Urinalysis Test', amount: 500 },
     { id: '4', description: 'Paracetamol 500mg Pack', amount: 300 },
